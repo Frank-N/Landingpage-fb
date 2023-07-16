@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    background-color: #1F2937;
+}
+
+.hero {
+    padding: 10px;
+    width: 70%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav h3 {
+    font-size: 24px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu a, .main-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+}
+
+.main-text {
+    width: 50%;
+    min-width: 300px;
+    flex-grow: 1;
+}
+
+.main-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.signup {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3882F6;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.signup a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.image {
+    width: 40%;
+    height: 50%;
+    margin: 10px;    
+    min-width: 300px;
+    flex-grow: 1;
+    background-color: #e5e7eb60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image p {
+    color: white;
+}
+
+@media screen and (max-width: 942px) {
+    .image {
+        width: 0px;
+        height: 0px;
+    }
+}
